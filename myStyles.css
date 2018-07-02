@@ -45,6 +45,11 @@ a {
 #bio {
   border-bottom: 1px solid black;
 }
+#header1 {
+  color: black;
+  font-size: 36px;
+}
+
 
 #scratch-project {
   width: 700px;
