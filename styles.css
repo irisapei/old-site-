@@ -5,6 +5,9 @@ body {
   margin: 10px 20px 10px 20px;
 }
 
+img {
+  border-radius = 50%
+}
 h1 {
   color: black;
   font-size: 36px;
