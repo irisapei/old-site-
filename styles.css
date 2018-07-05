@@ -1,59 +1,127 @@
-body {
-  background-color: blue;
-  color: black;
+body{
+  background-color: dimgray;
   font-family: 'Homemade Apple', cursive;
   font-family: 'Lobster', cursive;
-  margin: 10px 20px 10px 20px;
+  font-family: 'Shrikhand', cursive;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Cookie', cursive;
+  font-family: 'Coming Soon', cursive;
+  font-family: 'Petit Formal Script', cursive;
+  font-family: 'League Script', cursive;
+  font-family: 'Nunito', sans-serif;
+
 }
 
-.img-profpic {
+.profpic {
     border-radius: 50%;
     display: block;
     margin: 0 auto;
 }
 
-}
-h1 {
-  color: black;
-  font-size: 36px;
-}
-
-p, li {
-  font-size: 20px;
-}
-
-a {
-  color: black;
-}
-
-#header {
-  border: 2px solid black;
-  padding: 20px;
-  font-size: 50px;
-  font-weight: bold;
-}
-
-#navigation a {
-  float: right;
-  text-align: center;
-  padding: 15px;
-  font-size: 30px;
-  text-decoration: none;
-}
-
-.content {
-  padding: 15px 50px 15px 50px;
-}
-
 #bio {
-  border-bottom: 1px solid black;
+  margin-top: -80px;
+  color: white;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 4px #ffffff, 0 0 55px #ffffff, 0 0 50px #ffffff;
+  text-align: center;
 }
-#header1 {
-  color: black;
-  font-size: 36px;
+.container {
+  position: relative;
+  width: 50%;
+}
+.girls {
+  position: relative;
+  width: 50%;
+}
+.family {
+  position: relative;
+  width: 50%;
 }
 
+.imagedown {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-right: 70px;
+  float: right;
 
-#mahjong {
-  width: 500px;
+}
+.imageside {
+  border-radius: 50%;
+  display: block;
+  width: 300px;
+  height: 300px;
+  bottom: 90px;
+  right: 50px;
+  margin: auto 500px;
+  float: right;
+  margin-top: -600px;
+}
+.overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  margin-left: 49px;
+  height: 100%;
+  width: 72%;
+  opacity: 0;
+  transition: .2s ease;
+  background-color: #20B2AA;
+  border-radius:50%;
+
+}
+.overlay1 {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-left: 49px;
+  height: 100%;
+  width: 72%;
+  opacity: 0;
+  transition: .2s ease;
+  background-color: #20B2AA;
+  border-radius:50%;
+}
+.overlay2 {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 100%;
+  width: 66%;
+  opacity: 0;
+  transition: .2s ease;
+  background-color: #20B2AA;
+  border-radius:50%;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.girls:hover .overlay1{
+  opacity: 1;
+}
+
+.family:hover .overlay2{
+  opacity:1;
+}
+.text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.myrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
 }
