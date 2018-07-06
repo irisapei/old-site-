@@ -10,21 +10,62 @@ body{
   font-family: 'Petit Formal Script', cursive;
   font-family: 'League Script', cursive;
   font-family: 'Nunito', sans-serif;
+  font-family: 'Caveat', cursive;
+  font-family: 'Fredoka One', cursive;
 
 }
-
+#pittsburgh {
+  position: relative;
+  margin-left: 550px;
+  top: -103px;
+}
+.location {
+  width: 30px;
+  height: 30px;
+  position: relative; /* Declared position allows for location changes */
+  top: -80px;
+  margin-left: 500px;
+}
+#bio {
+  margin-top: -80px;
+  color: white;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 4px #ffffff, 0 0 55px #ffffff, 0 0 50px #ffffff;
+  text-align: center;
+  font-family: "League Script";
+  font-size: 80px;
+}
+#biodescription{
+  margin-top: -80px;
+  color: white;
+  text-align: center;
+  font-family: "Caveat";
+  font-size: 25px;
+}
+#mahjong {
+  font-family: "Fredoka One";
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 4px #ffffff, 0 0 55px #ffffff, 0 0 50px #ffffff;
+  font-size: 50px;
+  margin-top: 40px;
+  margin-left: -600px;
+  color: green;
+  text-align: center;
+}
 .profpic {
     border-radius: 50%;
     display: block;
     margin: 0 auto;
 }
 
-#bio {
-  margin-top: -80px;
+#projects {
+  font-family: "League Script";
+  font-size: 80px;
+  margin-top: 10px;
+  margin-left: 0px;
   color: white;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 4px #ffffff, 0 0 55px #ffffff, 0 0 50px #ffffff;
   text-align: center;
 }
+
 .container {
   position: relative;
   width: 50%;
@@ -37,7 +78,39 @@ body{
   position: relative;
   width: 50%;
 }
-
+.mahjongpic {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-right: 790px;
+  position: relative;
+  bottom: 40px;
+  float: right;
+}
+.popover {
+    display: block;
+    white-space: pre-line;
+    color: "white";
+    position: absolute;
+    top: 950px;
+    left: 600px;
+}
+#mail{
+  position: absolute;
+  top: 300px;
+  left: 500px;
+}
+#linkedin{
+  position: absolute;
+  top: 299px;
+  left: 615px;
+}
+#resume{
+  position: absolute;
+  top: 300px;
+  left: 730px;
+}
 .imagedown {
   display: block;
   width: 300px;
@@ -47,17 +120,7 @@ body{
   float: right;
 
 }
-.imageside {
-  border-radius: 50%;
-  display: block;
-  width: 300px;
-  height: 300px;
-  bottom: 90px;
-  right: 50px;
-  margin: auto 500px;
-  float: right;
-  margin-top: -600px;
-}
+
 .overlay {
   position: absolute;
   top: 0px;
@@ -68,7 +131,7 @@ body{
   width: 72%;
   opacity: 0;
   transition: .2s ease;
-  background-color: #20B2AA;
+  background-color:#808000;
   border-radius:50%;
 
 }
@@ -83,7 +146,7 @@ body{
   width: 72%;
   opacity: 0;
   transition: .2s ease;
-  background-color: #20B2AA;
+  background-color: #808000;
   border-radius:50%;
 }
 .overlay2 {
@@ -96,7 +159,7 @@ body{
   width: 66%;
   opacity: 0;
   transition: .2s ease;
-  background-color: #20B2AA;
+  background-color: #808000;
   border-radius:50%;
 }
 .container:hover .overlay {
